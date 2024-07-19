@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+h1{
+    color: pink;
+}
+
+a{
+    text-decoration: none;
+    font-size: 200px;
+}
