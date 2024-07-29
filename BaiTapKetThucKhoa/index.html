@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <input type="text" id="searchBar" placeholder="Search by title..." onkeyup="filterImages()">
+        <div class="category-buttons">
+            <button onclick="filterByCategory('All')">All</button>
+            <button onclick="filterByCategory('Nature')">Nature</button>
+            <button onclick="filterByCategory('Urban')">Urban</button>
+        </div>
+        <div id="imageGallery" class="image-gallery">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
